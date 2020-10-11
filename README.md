@@ -6,7 +6,7 @@ TODO List (pending lots of other ideas):
 - [ ] Create a portfolio section
 - [ ] Add a contact section
 
-- [] 🚢 Push initial version
+- [ ] 🚢 Push initial version
 
 ### fast follow up
 - [ ] Subdomain digitalinklingsblog.com into a blog section
