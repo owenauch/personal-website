@@ -21,3 +21,4 @@ TODO List (pending lots of other ideas):
 - [ ] make it REALLY easy to post
   - build a simple mapping to a repository somewhere local so I don't have to commit to post
   - make footnotes and images and code work as WYSISYG
+- [ ] add the ability to highlight most read articles
