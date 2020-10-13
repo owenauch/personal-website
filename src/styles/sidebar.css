@@ -12,3 +12,7 @@
   font-size: 32px;
   font-weight: bolder;
 }
+
+.Sidebar-mainName:hover {
+  font-weight: 900;
+}
