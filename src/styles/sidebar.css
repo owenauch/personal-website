@@ -1,0 +1,15 @@
+.Sidebar-outlineContainer {
+  align-items: center;
+  border: 4px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.Sidebar-mainName {
+  font-size: 32px;
+  font-weight: bolder;
+}
