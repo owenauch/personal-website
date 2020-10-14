@@ -1,3 +1,19 @@
 body {
   font-family: "Work Sans";
 }
+
+.Global-mainContainer {
+  display: grid;
+  gap: 15px;
+  margin: 50px;
+  grid-template-areas:
+    "navbar"
+    "content";
+}
+
+@media (min-width: 1100px) {
+  .Global-mainContainer {
+    grid-template-areas: "navbar content content content";
+    gap: 35px;
+  }
+}

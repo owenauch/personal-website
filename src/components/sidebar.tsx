@@ -10,21 +10,21 @@ const Sidebar: React.FC = () => (
       <Link to="/about/" className="Sidebar-listLink">
         About
       </Link>
-      <Link to="/inklings/" className="m Sidebar-listLink">
+      <Link to="/inklings/" className="Sidebar-listLink">
         Inklings
       </Link>
       <div className="Sidebar-iconContainer">
         <a href="https://twitter.com/owenauch" className="Sidebar-icon">
-          <FiTwitter color="black" />
+          <FiTwitter color="black" style={{ verticalAlign: "middle" }} />
         </a>
         <a href="mailto:owenauch@gmail.com" className="Sidebar-icon">
-          <FiMail color="black" />
+          <FiMail color="black" style={{ verticalAlign: "middle" }} />
         </a>
         <a
           href="https://www.linkedin.com/in/owenauch/"
           className="Sidebar-icon"
         >
-          <FaLinkedinIn color="black" />
+          <FaLinkedinIn color="black" style={{ verticalAlign: "middle" }} />
         </a>
       </div>
     </div>

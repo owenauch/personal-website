@@ -3,7 +3,7 @@ import Sidebar from "../components/sidebar"
 import BigPicture from "../components/big_picture"
 
 const Index: React.FC = () => (
-  <div className="Index-mainContainer">
+  <div className="Global-mainContainer">
     <Sidebar />
     <BigPicture />
   </div>
