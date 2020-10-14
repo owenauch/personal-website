@@ -11,8 +11,26 @@
 .Sidebar-mainName {
   font-size: 32px;
   font-weight: bolder;
+  margin: 10px 0;
 }
 
 .Sidebar-mainName:hover {
   font-weight: 900;
+}
+
+.Sidebar-iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.Sidebar-icon {
+  margin: 0 5px;
+}
+
+.Sidebar-listLink {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 5px;
 }
