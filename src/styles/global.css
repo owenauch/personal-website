@@ -5,15 +5,22 @@ body {
 .Global-mainContainer {
   display: grid;
   gap: 15px;
-  margin: 50px;
+  margin: 25px;
   grid-template-areas:
     "navbar"
     "content";
+}
+
+@media (min-width: 700px) {
+  .Global-mainContainer {
+    margin: 50px;
+  }
 }
 
 @media (min-width: 1100px) {
   .Global-mainContainer {
     grid-template-areas: "navbar content content content";
     gap: 35px;
+    margin: 50px;
   }
 }

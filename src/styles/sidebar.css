@@ -1,15 +1,21 @@
 .Sidebar {
   grid-area: navbar;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  border-radius: 13px;
+  padding: 5px 20px;
 }
 
-.Sidebar-outlineContainer {
+.Sidebar-wideContainer {
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  border: 4px solid black;
-  border-radius: 13px;
-  padding: 5px 20px;
+}
+
+.Sidebar-linkContainer {
+  display: none;
 }
 
 .Sidebar-mainName {
@@ -21,7 +27,12 @@
 .Sidebar-listLink {
   color: black;
   text-decoration: none;
-  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.Sidebar-listLink:hover {
+  font-weight: bolder;
 }
 
 .Sidebar-iconContainer {
@@ -32,7 +43,52 @@
   margin: 0 5px;
 }
 
+.Sidebar-linkContainer--narrow {
+  margin-top: 3px;
+}
+
+@media (min-width: 700px) {
+  .Sidebar-mainName {
+    font-weight: bolder;
+    margin-right: 10px;
+  }
+
+  .Sidebar-linkContainer {
+    display: inherit;
+  }
+
+  .Sidebar-linkContainer--narrow {
+    display: none;
+  }
+
+  .Sidebar-listLink {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}
+
 @media (min-width: 1100px) {
+  .Sidebar {
+    display: inline-table;
+  }
+  
+  .Sidebar-wideContainer {
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    left: 50px;
+  }
+
+  .Sidebar-linkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Sidebar-linkContainer--narrow {
+    display: none;
+  }
+
   .Sidebar-outlineContainer {
     display: flex;
     flex-direction: column;
@@ -55,6 +111,7 @@
 
   .Sidebar-listLink {
     margin-bottom: 5px;
+    margin-left: 0;
   }
 }
 

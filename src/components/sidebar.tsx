@@ -5,14 +5,16 @@ import { FaLinkedinIn } from "react-icons/fa"
 
 const Sidebar: React.FC = () => (
   <div className="Sidebar">
-    <div className="Sidebar-outlineContainer">
+    <div className="Sidebar-wideContainer">
       <p className="Sidebar-mainName">Owen Auch</p>
-      <Link to="/about/" className="Sidebar-listLink">
-        About
-      </Link>
-      <Link to="/inklings/" className="Sidebar-listLink">
-        Inklings
-      </Link>
+      <div className="Sidebar-linkContainer">
+        <Link to="/about/" className="Sidebar-listLink">
+          About
+        </Link>
+        <Link to="/inklings/" className="Sidebar-listLink">
+          Inklings
+        </Link>
+      </div>
       <div className="Sidebar-iconContainer">
         <a href="https://twitter.com/owenauch" className="Sidebar-icon">
           <FiTwitter color="black" style={{ verticalAlign: "middle" }} />
@@ -27,6 +29,14 @@ const Sidebar: React.FC = () => (
           <FaLinkedinIn color="black" style={{ verticalAlign: "middle" }} />
         </a>
       </div>
+    </div>
+    <div className="Sidebar-linkContainer--narrow">
+      <Link to="/about/" className="Sidebar-listLink">
+        About
+      </Link>
+      <Link to="/inklings/" className="Sidebar-listLink">
+        Inklings
+      </Link>
     </div>
   </div>
 )
