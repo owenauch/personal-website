@@ -1,7 +1,7 @@
 import React from "react"
 
-const MainContent: React.FC = () => (
-  <div className="MainContent">
+const BigPicture: React.FC = () => (
+  <div className="BigPicture">
     <img
       className="test"
       src="https://www.worldatlas.com/upload/70/32/73/shutterstock-310887800.jpg"
@@ -9,4 +9,4 @@ const MainContent: React.FC = () => (
   </div>
 )
 
-export default MainContent
+export default BigPicture

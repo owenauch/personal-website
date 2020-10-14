@@ -1,11 +1,11 @@
 import React from "react"
 import Sidebar from "../components/sidebar"
-import MainContent from "../components/main_content"
+import BigPicture from "../components/big_picture"
 
 const Index: React.FC = () => (
   <div className="Index-mainContainer">
     <Sidebar />
-    <MainContent />
+    <BigPicture />
   </div>
 )
 
