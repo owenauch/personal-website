@@ -4,8 +4,8 @@ body {
 
 .Global-mainContainer {
   display: grid;
-  gap: 15px;
-  margin: 25px;
+  gap: 10px;
+  margin: 10px;
   grid-template-areas:
     "navbar"
     "content";
