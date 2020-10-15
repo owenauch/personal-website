@@ -1,10 +1,10 @@
 TODO List (pending lots of other ideas):
 ### pre-push
 - [x] Set up a nice font
-- [ ] Create a navigation sidebar
+- [x] Create a navigation sidebar
+  - [ ] make nav links bolder when you're on that page
+  - [ ] make nav links a bit bigger on mobile
 - [ ] Create a home page with some sort of bio (ugh)
-- [ ] Create a portfolio section
-- [ ] Add a contact section
 
 - [ ] 🚢 Push initial version
 
