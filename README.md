@@ -3,7 +3,7 @@ TODO List (pending lots of other ideas):
 - [x] Set up a nice font
 - [x] Create a navigation sidebar
   - [ ] make nav links bolder when you're on that page
-  - [ ] make nav links a bit bigger on mobile
+  - [x] make nav links a bit bigger on mobile
 - [ ] Create a home page with some sort of bio (ugh)
 
 - [ ] 🚢 Push initial version
