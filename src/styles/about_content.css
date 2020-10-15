@@ -1,0 +1,10 @@
+.AboutContent {
+  grid-area: content;
+  width: 100%;
+  padding: 10px;
+}
+
+.AboutContent-aboutPhoto {
+  width: 30%;
+  min-width: 130px;
+}
