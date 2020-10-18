@@ -17,8 +17,8 @@ TODO List (pending lots of other ideas):
   - [ ] Set up digitalinklingsblog.com to point at personal site or add banner
 
 ### nice to haves
-- [ ] add a photo gallery to integrate photos
-  - [ ] make it easy to push photos to an S1 bucket and have them appear
+- [x] add a photo gallery to integrate photos
+  - [x] make it easy to push photos to an S1 bucket and have them appear
 - [ ] make it REALLY easy to post
   - build a simple mapping to a repository somewhere local so I don't have to commit to post
   - make footnotes and images and code work as WYSISYG
