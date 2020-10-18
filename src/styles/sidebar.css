@@ -2,8 +2,6 @@
   grid-area: navbar;
   display: flex;
   flex-direction: column;
-  border: 4px solid black;
-  border-radius: 13px;
   padding: 5px 20px;
 }
 
@@ -19,19 +17,23 @@
 }
 
 .Sidebar-mainName {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bolder;
   margin-right: 10px;
+  margin-left: -3px;
 }
 
 .Sidebar-listLink {
-  color: black;
-  text-decoration: none;
   margin-right: 10px;
-  font-size: 14px;
+  font-size: 17px;
 }
 
-.Sidebar-listLink:hover {
+.Sidebar-genericLink {
+  color: black;
+  text-decoration: none;
+}
+
+.Sidebar-genericLink:hover {
   font-weight: bolder;
 }
 
@@ -44,7 +46,7 @@
 }
 
 .Sidebar-linkContainer--narrow {
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 @media (min-width: 700px) {
@@ -55,6 +57,7 @@
 
   .Sidebar-linkContainer {
     display: inherit;
+    margin-left: 10px;
   }
 
   .Sidebar-linkContainer--narrow {
@@ -63,7 +66,8 @@
 
   .Sidebar-listLink {
     margin-right: 0;
-    margin-left: 10px;
+    margin-left: 15px;
+    font-size: 20px;
   }
 }
 

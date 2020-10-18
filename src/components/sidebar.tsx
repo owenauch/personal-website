@@ -1,20 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
+import SidebarLinkContainer from "../components/sidebar_link_container"
 import { FiTwitter, FiMail } from "react-icons/fi"
 import { FaLinkedinIn } from "react-icons/fa"
 
 const Sidebar: React.FC = () => (
-  <div className="Sidebar">
+  <div className="Sidebar Global-bigBorder">
     <div className="Sidebar-wideContainer">
-      <p className="Sidebar-mainName">Owen Auch</p>
-      <div className="Sidebar-linkContainer">
-        <Link to="/about/" className="Sidebar-listLink">
-          About
-        </Link>
-        <Link to="/inklings/" className="Sidebar-listLink">
-          Inklings
-        </Link>
-      </div>
+      <Link to="/" className="Sidebar-mainName Sidebar-genericLink">
+        Owen Auch
+      </Link>
+      <SidebarLinkContainer isMobile={false} />
       <div className="Sidebar-iconContainer">
         <a href="https://twitter.com/owenauch" className="Sidebar-icon">
           <FiTwitter color="black" style={{ verticalAlign: "middle" }} />
@@ -30,14 +26,7 @@ const Sidebar: React.FC = () => (
         </a>
       </div>
     </div>
-    <div className="Sidebar-linkContainer--narrow">
-      <Link to="/about/" className="Sidebar-listLink">
-        About
-      </Link>
-      <Link to="/inklings/" className="Sidebar-listLink">
-        Inklings
-      </Link>
-    </div>
+    <SidebarLinkContainer isMobile={true} />
   </div>
 )
 
