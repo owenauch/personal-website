@@ -11,7 +11,7 @@ const BigPicture: React.FC = () => {
     <div className="BigPicture">
       <img className="BigPicture-image Global-bigBorder" src={randomPhotoSrc} />
       <div className="BigPicture-explainerText">
-        I took this photo while travelling! Click <Link to="/">here</Link> or
+        I took this photo while traveling. Click <Link to="/">here</Link> or
         refresh the page to see a new one.
       </div>
     </div>
