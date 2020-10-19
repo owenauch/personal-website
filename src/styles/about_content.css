@@ -1,8 +1,8 @@
 .AboutContent {
   grid-area: content;
-  width: 100%;
   padding: 10px;
   display: flex;
+  flex-direction: column;
 }
 
 .AboutContent-imageContainer {
@@ -10,6 +10,7 @@
 }
 
 .AboutContent-text {
+  margin-top: 10px;
   margin-left: 25px;
   font-size: 18px;
 }
@@ -23,3 +24,14 @@
 .AboutContent-finalBlurb {
   margin-top: 15px;
 }
+
+@media (min-width: 700px) {
+  .AboutContent {
+    flex-direction: row;
+  }
+
+  .AboutContent-text {
+    margin-top: 0;
+  }
+}
+
