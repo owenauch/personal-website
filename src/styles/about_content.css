@@ -2,9 +2,24 @@
   grid-area: content;
   width: 100%;
   padding: 10px;
+  display: flex;
 }
 
-.AboutContent-aboutPhoto {
-  width: 30%;
-  min-width: 130px;
+.AboutContent-imageContainer {
+  width: 100%;
+}
+
+.AboutContent-text {
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+.AboutContent-thingsILike {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.AboutContent-finalBlurb {
+  margin-top: 15px;
 }
