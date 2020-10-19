@@ -28,7 +28,7 @@ const AboutContent: React.FC = () => (
           (preferably indie, funk, hip hop and jazz)
         </li>
         <li>
-          Building things (usually with{" "}
+          Building things that help others (usually with{" "}
           <Link to="https://github.com/owenauch">code</Link>)
         </li>
         <li>
