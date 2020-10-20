@@ -35,7 +35,7 @@ const AboutContent: React.FC = () => (
           <Link to="https://www.goodreads.com/review/list/27881811-owen?ref=nav_mybooks&shelf=read&sort=rating">
             Reading
           </Link>{" "}
-          and <Link to="/inklings/">writing</Link>
+          and <Link to="/writing/">writing</Link>
         </li>
         <li>Friendships</li>
         <li>Theology</li>
