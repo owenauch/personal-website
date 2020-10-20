@@ -1,0 +1,4 @@
+.WritingContent {
+  grid-area: content;
+  width: 100%;
+}
