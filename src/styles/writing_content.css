@@ -1,6 +1,5 @@
 .WritingContent {
   grid-area: content;
-  width: 100%;
-  padding: 10px;
-  padding-bottom: -10px;
+  padding: 20px;
+  padding-bottom: 0;
 }
