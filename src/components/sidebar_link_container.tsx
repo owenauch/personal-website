@@ -15,7 +15,7 @@ const SidebarLinkContainer: React.FC<Props> = (props: Props) => {
         About
       </Link>
       <Link to="/writing/" className="Sidebar-listLink Sidebar-genericLink">
-        Inklings
+        Writing
       </Link>
     </div>
   )
