@@ -1,0 +1,13 @@
+.WritingLink {
+  margin-bottom: 20px;
+}
+
+.WritingLink-date {
+  color: #404040;
+  font-size: 14px;
+}
+
+.WritingLink-title {
+  font-size: 20px;
+  font-weight: bolder;
+}
