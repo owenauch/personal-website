@@ -2,6 +2,7 @@
   grid-area: content;
   padding: 10px;
   display: flex;
+  flex-direction: column;
 }
 
 .AboutContent-imageContainer {
