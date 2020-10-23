@@ -43,7 +43,7 @@ const AboutContent: React.FC = () => (
       </p>
       <ul>
         <li>Internet privacy and decentralization</li>
-        <li>Technology serving the disadvantaged</li>
+        <li>Technology that serves the disadvantaged</li>
         <li>Market design and game theory problems</li>
         <li>Early-stage startups</li>
         <li>Interesting ideas</li>
