@@ -16,16 +16,14 @@ const AboutContent: React.FC = () => (
         worked at a couple of small startups, and studied economics and computer
         science at Washington University in St. Louis.
       </p>
-      <p className="AboutContent-thingsILike">
-        Things I like (non-exhaustive):
-      </p>
+      <p className="AboutContent-thingsILike">Some things I like</p>
       <ul>
         <li>Being outside</li>
         <li>
           <Link to="https://open.spotify.com/user/1222073?si=TRlnYRvkStab6VtJWN7J8w">
             Music
           </Link>{" "}
-          (preferably indie, funk, hip hop and jazz)
+          (especially indie, funk, hip hop and jazz)
         </li>
         <li>
           Building things that help others (usually with{" "}
@@ -40,8 +38,19 @@ const AboutContent: React.FC = () => (
         <li>Friendships</li>
         <li>Theology</li>
       </ul>
+      <p className="AboutContent-thingsILike">
+        Some things I'm interested in working on
+      </p>
+      <ul>
+        <li>Internet privacy and decentralization</li>
+        <li>Technology serving the disadvantaged</li>
+        <li>Market design and game theory problems</li>
+        <li>Early-stage startups</li>
+        <li>Interesting ideas</li>
+      </ul>
       <p className="AboutContent-finalBlurb">
-        If you also like any of these things, feel free to reach out to me at{" "}
+        If you like or are working on any of these things, feel free to reach
+        out to me at{" "}
         <Link to="mailto:owenauch@gmail.com">owenauch@gmail.com</Link>!
       </p>
     </div>
