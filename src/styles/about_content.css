@@ -11,8 +11,8 @@
 
 .AboutContent-text {
   margin-top: 10px;
-  margin-left: 25px;
   font-size: 18px;
+  padding: 4px;
 }
 
 .AboutContent-thingsILike {
@@ -32,6 +32,7 @@
 
   .AboutContent-text {
     margin-top: 0;
+    margin-left: 25px;
   }
 }
 
