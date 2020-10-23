@@ -36,7 +36,7 @@ const AboutContent: React.FC = () => (
           and <Link to="/writing/">writing</Link>
         </li>
         <li>Friendships</li>
-        <li>Theology</li>
+        <li>Theology and philosophy</li>
       </ul>
       <p className="AboutContent-thingsILike">
         Some things I'm interested in working on
