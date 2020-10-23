@@ -3,11 +3,11 @@ TODO List (pending lots of other ideas):
 - [x] Set up a nice font
 - [x] Create a navigation sidebar
   - [x] make nav links a bit bigger on mobile
-- [ ] Create a home page with some sort of bio (ugh)
+- [x] Create a home page with some sort of bio (ugh)
   - [x] Add photo
-  - [ ] Write stuff
+  - [x] Write stuff
 
-- [ ] 🚢 Push initial version
+- [x] 🚢 Push initial version
 
 ### fast follow up
 - [ ] Subdomain digitalinklingsblog.com into a blog section
