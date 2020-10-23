@@ -9,13 +9,6 @@ TODO List (pending lots of other ideas):
 
 - [x] 🚢 Push initial version
 
-### fast follow up
-- [ ] Subdomain digitalinklingsblog.com into a blog section
-  - [ ] Set up a nice looking blog section
-  - [ ] Figure out how to get markdown into blog easily
-  - [ ] Set up email notifications again
-  - [ ] Set up digitalinklingsblog.com to point at personal site or add banner
-
 ### nice to haves
 - [x] add a photo gallery to integrate photos
   - [x] make it easy to push photos to an S1 bucket and have them appear
