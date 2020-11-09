@@ -5,8 +5,16 @@
 
 .BigPicture-image {
   width: 100%;
-  height: auto;
+  height: 100%;
   max-height: calc(100vh - 20px);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.BigPicture-imageContainer {
+  padding-top: 66.8316832%;
+  position: relative;
 }
 
 .BigPicture-explainerText {

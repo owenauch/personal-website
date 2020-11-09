@@ -9,7 +9,12 @@ const BigPicture: React.FC = () => {
 
   return (
     <div className="BigPicture">
-      <img className="BigPicture-image Global-bigBorder" src={randomPhotoSrc} />
+      <div className="BigPicture-imageContainer">
+        <img
+          className="BigPicture-image Global-bigBorder"
+          src={randomPhotoSrc}
+        />
+      </div>
       <div className="BigPicture-explainerText">
         I took this photo while traveling. Click <Link to="/">here</Link> or
         refresh the page to see a new one.
