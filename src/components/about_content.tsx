@@ -30,7 +30,7 @@ const AboutContent: React.FC = () => (
           <Link to="https://github.com/owenauch">code</Link>)
         </li>
         <li>
-          <Link to="https://www.goodreads.com/review/list/27881811-owen?ref=nav_mybooks&shelf=read&sort=rating">
+          <Link to="https://www.goodreads.com/review/list/27881811?ref=nav_mybooks&sort=date_read">
             Reading
           </Link>{" "}
           and <Link to="/writing/">writing</Link>
