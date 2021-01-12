@@ -21,9 +21,9 @@ const AboutContent: React.FC = () => (
         <li>Being outside</li>
         <li>
           <Link to="https://open.spotify.com/user/1222073?si=TRlnYRvkStab6VtJWN7J8w">
-            Music
+            Playing and listening to music
           </Link>{" "}
-          (especially indie, funk, hip hop and jazz)
+          (especially indie rock, folk, hip hop and jazz)
         </li>
         <li>
           Building things that help others (usually with{" "}
@@ -35,14 +35,15 @@ const AboutContent: React.FC = () => (
           </Link>{" "}
           and <Link to="/writing/">writing</Link>
         </li>
-        <li>Friendships</li>
-        <li>Theology and philosophy</li>
+        <li>Meaningful relationships</li>
+        <li>Theology, philosophy, history, psychology and economics (etc.)</li>
       </ul>
       <p className="AboutContent-thingsILike">
         Some things I'm interested in working on
       </p>
       <ul>
         <li>Internet privacy and decentralization</li>
+        <li>Projects that reduce the monetization of attention</li>
         <li>Technology that serves the disadvantaged</li>
         <li>Market design and game theory problems</li>
         <li>Early-stage startups</li>
