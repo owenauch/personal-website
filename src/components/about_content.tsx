@@ -13,8 +13,8 @@ const AboutContent: React.FC = () => (
     <div className="AboutContent-text">
       <p>
         I work as a software engineer at Asana in San Francisco. Previously, I
-        worked at a couple of small startups, and I studied economics and computer
-        science at Washington University in St. Louis.
+        worked at a couple of small startups, and I studied economics and
+        computer science at Washington University in St. Louis.
       </p>
       <p className="AboutContent-thingsILike">Some things I like</p>
       <ul>
