@@ -1,5 +1,5 @@
 import React from "react"
-import aboutPhoto from "../images/me.jpg"
+import aboutPhoto from "../images/me2.png"
 import { Link } from "gatsby"
 
 const AboutContent: React.FC = () => (
