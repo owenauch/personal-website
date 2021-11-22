@@ -31,7 +31,7 @@ const WritingContent: React.FC = () => {
       ))
     return (
       <div key={section.sectionName}>
-        <h2>{section.sectionName}</h2>
+        <h2 className="WritingContent-subheader">{section.sectionName}</h2>
         {links}
       </div>
     )
