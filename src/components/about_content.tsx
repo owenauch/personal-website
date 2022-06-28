@@ -12,7 +12,7 @@ const AboutContent: React.FC = () => (
     </div>
     <div className="AboutContent-text">
       <p>
-        I work as a software engineer at Asana in San Francisco. Previously, I
+        I'm currently a Tech Lead of a product engineering team at Asana in San Francisco. Previously, I
         worked at a couple of small startups, and I studied economics and
         computer science at Washington University in St. Louis.
       </p>
@@ -42,10 +42,9 @@ const AboutContent: React.FC = () => (
         Some things I'm interested in working on
       </p>
       <ul>
-        <li>Internet privacy and decentralization</li>
         <li>Projects that reduce the monetization of attention</li>
         <li>Technology that serves the disadvantaged</li>
-        <li>Environmental and green tech</li>
+        <li>Building stronger relationships between people through organizations or technology</li>
         <li>Market design and game theory problems</li>
         <li>Early-stage startups</li>
         <li>Interesting ideas</li>
