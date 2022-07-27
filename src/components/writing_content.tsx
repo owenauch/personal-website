@@ -30,13 +30,17 @@ const WritingContent: React.FC = () => {
         />
       ))
     return (
-      <div key={section.sectionName}>
-        <h2 className="WritingContent-subheader">{section.sectionName}</h2>
-        {links}
-      </div>
+        <div key={section.sectionName}>
+          <h2 className="WritingContent-subheader">{section.sectionName}</h2>
+          {links}
+        </div>
     )
   })
-  return <div className="WritingContent Global-bigBorder">{writingLinks}</div>
+  return <div className="WritingContent Global-bigBorder">
+            <p>See <a href="https://handsbrainheart.substack.com/">my Substack</a> for more short fiction, blog posts, recommendations, ideas, and inklings.</p>
+            <br/>
+            {writingLinks}
+          </div>
 }
 
 export default WritingContent
