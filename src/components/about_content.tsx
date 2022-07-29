@@ -38,21 +38,9 @@ const AboutContent: React.FC = () => (
         <li>Meaningful relationships</li>
         <li>Theology, philosophy, history, psychology and economics (etc.)</li>
       </ul>
-      <p className="AboutContent-thingsILike">
-        Some things I'm interested in working on
-      </p>
-      <ul>
-        <li>Projects that reduce the monetization of attention</li>
-        <li>Technology that serves the disadvantaged</li>
-        <li>Building stronger relationships between people through organizations or technology</li>
-        <li>Market design and game theory problems</li>
-        <li>Early-stage startups</li>
-        <li>Interesting ideas</li>
-      </ul>
       <p className="AboutContent-finalBlurb">
-        If you like or are working on any of these things, feel free to reach
-        out to me at{" "}
-        <Link to="mailto:owenauch@gmail.com">owenauch@gmail.com</Link>!
+        You can find a copy of my resume (updated June 2022) <Link to="https://drive.google.com/file/d/1USyrqB5iBwHVdrtY8G20nCvctgGdS2LW/view?usp=sharing">here</Link>. Feel free to reach
+        out to me at owenauch [at] gmail.com!
       </p>
     </div>
   </div>
