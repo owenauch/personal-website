@@ -12,9 +12,9 @@ const AboutContent: React.FC = () => (
     </div>
     <div className="AboutContent-text">
       <p>
-        I'm currently a Tech Lead of a product engineering team at Asana in San Francisco. Previously, I
-        worked at a couple of small startups, and I studied economics and
-        computer science at Washington University in St. Louis.
+        I currently lead the Core Billing team at <Link to="https://www.withorb.com/">Orb</Link>, a usage-based billing startup. Previously, I was a tech lead of a product team focused on growth at Asana,
+        and before that I worked at a couple of small startups. I graduated Magna Cum Laude from Washington University in St. Louis,
+        studying economics and computer science.
       </p>
       <p className="AboutContent-thingsILike">Some things I like</p>
       <ul>
